@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/Home', function(){
+    return view('Home.Home_Index');
+});
+Route::get('/Home/List-Plants', function(){
+    return view('Content.List_Plants_Index');
+});
